@@ -1,0 +1,6 @@
+bil = int(input())
+if (bil == 0) : print("Nol")
+elif (1 <= bil <= 9) : print("Satuan")
+elif (10 <= bil <= 19) : print("Belasan")
+elif (20 <= bil <= 99) : print("Puluhan")
+else : print("Anda Menginput Melebihi Limit Bilangan")
